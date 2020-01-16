@@ -1,4 +1,5 @@
 class Motobomba {
+    static moto = new Motobomba()
     constructor(id, capacidad, estado = false) {
         this.id = id;
         this.capacidad = capacidad;
@@ -43,6 +44,3 @@ class Motobomba {
     }
 }
 
-
-
-let moto = new Motobomba()

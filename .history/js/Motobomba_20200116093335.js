@@ -43,6 +43,3 @@ class Motobomba {
     }
 }
 
-
-
-let moto = new Motobomba()

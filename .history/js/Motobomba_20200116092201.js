@@ -14,13 +14,14 @@ class Motobomba {
         return this.estado;
     }
     toString() {
+
         if (this.estado == true) {
             document.getElementById('estado').innerHTML='<img src="img/verde.jpg" windth="130px" height="100px">'
             var parrafo=document.createElement('p')
             parrafo.innerHTML = 'esta prendido'
             document.body.appendChild(parrafo)
             moto.apagar()
-            
+            document.getElementById('estado').te
             
         }
         else if(this.estado == false) {
@@ -39,10 +40,8 @@ class Motobomba {
         console.log(this.id)
         console.log(this.capacidad)
         document.getElementById('img').innerHTML='<img src="img/camion.jpg" windth="130px" height="100px">'
-        document.getElementById('pintar').innerHTML='<button type="button" id="estado" onclick="moto.toString()">Estado</button>'
+        document.getElementById('pintar').innerHTML='<button type="button" id="estado" onclick="moto.toString()">Prender</button>'
     }
 }
-
-
 
 let moto = new Motobomba()
