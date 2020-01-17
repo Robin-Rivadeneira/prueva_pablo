@@ -34,10 +34,9 @@ body{
 #estado{
     position: relative;
     left: 550px;
-    top: -120px;
+    top: -30px;
 }
 #pintar{
     position: relative;
-    left: 570px;
-    top: -100px;
+    left: 500px;
 }

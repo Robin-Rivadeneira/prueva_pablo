@@ -25,19 +25,4 @@ body{
 .button{
     position: relative;
     top: 170px;
-    right: 300px;
-}
-#img{
-    position: relative;
-    left: 800px;
-}
-#estado{
-    position: relative;
-    left: 550px;
-    top: -120px;
-}
-#pintar{
-    position: relative;
-    left: 570px;
-    top: -100px;
 }

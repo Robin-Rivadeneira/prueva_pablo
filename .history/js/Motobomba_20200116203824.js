@@ -25,7 +25,7 @@ class Motobomba {
         }
         else if(this.estado == false) {
             document.getElementById('estado').innerHTML='<img src="img/rojo.jpg" windth="130px" height="100px">'
-            var parrafo=document.createElement('li')
+            var parrafo=document.createElement('p')
             parrafo.innerHTML = 'Esta Apagado'
             document.body.appendChild(parrafo)
             moto.prender()

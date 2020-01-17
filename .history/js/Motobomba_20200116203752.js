@@ -16,8 +16,8 @@ class Motobomba {
     toString() {
         if (this.estado == true) {
             document.getElementById('estado').innerHTML='<img src="img/verde.jpg" windth="130px" height="100px">'
-            var parrafo=document.createElement('li')
-            parrafo.innerHTML = 'Esta Prendido'
+            var parrafo=document.createElement('p')
+            parrafo.innerHTML = 'esta prendido'
             document.body.appendChild(parrafo)
             moto.apagar()
             document.getElementById("boton").innerHTML="PRENDIDO"
@@ -25,8 +25,8 @@ class Motobomba {
         }
         else if(this.estado == false) {
             document.getElementById('estado').innerHTML='<img src="img/rojo.jpg" windth="130px" height="100px">'
-            var parrafo=document.createElement('li')
-            parrafo.innerHTML = 'Esta Apagado'
+            var parrafo=document.createElement('p')
+            parrafo.innerHTML = 'Esta apagado'
             document.body.appendChild(parrafo)
             moto.prender()
             document.getElementById("boton").innerHTML="APAGADO"

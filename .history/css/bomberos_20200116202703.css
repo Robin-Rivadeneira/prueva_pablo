@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(116, 182, 182);
+}
+.id{
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+#id{
+    position: relative;
+    top: 30px;
+    left: 10px;
+}

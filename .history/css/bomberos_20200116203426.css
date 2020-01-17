@@ -32,12 +32,9 @@ body{
     left: 800px;
 }
 #estado{
-    position: relative;
-    left: 550px;
-    top: -120px;
+    
 }
 #pintar{
     position: relative;
-    left: 570px;
-    top: -100px;
+    left: 500px;
 }

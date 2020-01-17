@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(116, 182, 182);
+}
+.id{
+    position: relative;
+    left: 10px;
+    top: 30px;
+}
+#id{
+    position: relative;
+    top: 30px;
+    left: 90px;
+}
+
+.capacidad{
+    position: relative;
+    top: 100px;
+    right: 200px;
+}
+#capacidad{
+    position: relative;
+    top: ;
+}

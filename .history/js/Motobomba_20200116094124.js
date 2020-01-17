@@ -4,6 +4,9 @@ class Motobomba {
         this.capacidad = capacidad;
         this.estado = estado;
     }
+    static instancia(){
+
+    }
     prender() {
         this.estado = true;
     }
@@ -16,20 +19,19 @@ class Motobomba {
     toString() {
         if (this.estado == true) {
             document.getElementById('estado').innerHTML='<img src="img/verde.jpg" windth="130px" height="100px">'
-            var parrafo=document.createElement('li')
-            parrafo.innerHTML = 'Esta Prendido'
+            var parrafo=document.createElement('p')
+            parrafo.innerHTML = 'esta prendido'
             document.body.appendChild(parrafo)
             moto.apagar()
-            document.getElementById("boton").innerHTML="PRENDIDO"
+            
             
         }
         else if(this.estado == false) {
             document.getElementById('estado').innerHTML='<img src="img/rojo.jpg" windth="130px" height="100px">'
-            var parrafo=document.createElement('li')
-            parrafo.innerHTML = 'Esta Apagado'
+            var parrafo=document.createElement('p')
+            parrafo.innerHTML = 'esta apagado'
             document.body.appendChild(parrafo)
             moto.prender()
-            document.getElementById("boton").innerHTML="APAGADO"
         }
     }
     guardar(){
@@ -40,10 +42,9 @@ class Motobomba {
         console.log(this.id)
         console.log(this.capacidad)
         document.getElementById('img').innerHTML='<img src="img/camion.jpg" windth="130px" height="100px">'
-        document.getElementById('pintar').innerHTML='<button type="button" id="boton" onclick="moto.toString()">ESTADO</button>'
+        document.getElementById('pintar').innerHTML='<button type="button" id="estado" onclick="moto.toString()">Estado</button>'
     }
 }
 
 
 
-let moto = new Motobomba()
